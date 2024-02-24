@@ -1,0 +1,252 @@
+[
+    {
+        "id": 0,
+        "enterprise": "No",
+        "capacity": 1
+    },
+    {
+        "id": 403197,
+        "enterprise": "Accenture - Tecnilógica Ecosistemas",
+        "capacity": 1
+    },
+    {
+        "id": 403202,
+        "enterprise": "Accenture - Tecnilógica Ecosistemas",
+        "capacity": 3
+    },
+    {
+        "id": 403205,
+        "enterprise": "Accenture - Tecnilógica Ecosistemas",
+        "capacity": 2
+    },
+    {
+        "id": 403213,
+        "enterprise": "Accenture - Tecnilógica Ecosistemas",
+        "capacity": 1
+    },
+    {
+        "id": 403215,
+        "enterprise": "Accenture - Tecnilógica Ecosistemas",
+        "capacity": 1
+    },
+    {
+        "id": 403216,
+        "enterprise": "Accenture - Tecnilógica Ecosistemas",
+        "capacity": 1
+    },
+    {
+        "id": 403219,
+        "enterprise": "Accenture - Tecnilógica Ecosistemas",
+        "capacity": 1
+    },
+    {
+        "id": 405837,
+        "enterprise": "Angels Caring",
+        "capacity": 1
+    },
+    {
+        "id": 402838,
+        "enterprise": "AUTOPISTA DEL SOL CONCESIONARIA CESAU",
+        "capacity": 1
+    },
+    {
+        "id": 403857,
+        "enterprise": "AVANADE SPAIN S.L.U ",
+        "capacity": 7
+    },
+    {
+        "id": 405277,
+        "enterprise": "BeSoccer Solutions S. L. ",
+        "capacity": 2
+    },
+    {
+        "id": 403114,
+        "enterprise": "BLAU RING LASBS",
+        "capacity": 1
+    },
+    {
+        "id": 408332,
+        "enterprise": "BNT Business",
+        "capacity": 1
+    },
+    {
+        "id": 405606,
+        "enterprise": "CAPGEMINI España S.L.",
+        "capacity": 6
+    },
+    {
+        "id": 399663,
+        "enterprise": "CEMOSA",
+        "capacity": 2
+    },
+    {
+        "id": 405763,
+        "enterprise": "CGI Information Systems and Management Consultants España",
+        "capacity": 4
+    },
+    {
+        "id": 397495,
+        "enterprise": "Checktobuild",
+        "capacity": 2
+    },
+    {
+        "id": 410859,
+        "enterprise": "D.med",
+        "capacity": 1
+    },
+    {
+        "id": 410876,
+        "enterprise": "DAZENT",
+        "capacity": 2
+    },
+    {
+        "id": 402339,
+        "enterprise": "Decentralized Security",
+        "capacity": 1
+    },
+    {
+        "id": 409529,
+        "enterprise": "Dress & Sommer Spain S.L.",
+        "capacity": 1
+    },
+    {
+        "id": 402774,
+        "enterprise": "Elliott's Playa",
+        "capacity": 1
+    },
+    {
+        "id": 409385,
+        "enterprise": "Enthec Solutions S.L.",
+        "capacity": 1
+    },
+    {
+        "id": 405340,
+        "enterprise": "EY Global Delivery Services  (Málaga Excelence & TECHNOLOGY SL.)",
+        "capacity": 10
+    },
+    {
+        "id": 406225,
+        "enterprise": "FMIT  Group",
+        "capacity": 2
+    },
+    {
+        "id": 405543,
+        "enterprise": "HISPASEC SISTEMAS S.L.",
+        "capacity": 2
+    },
+    {
+        "id": 405569,
+        "enterprise": "Idneo Technologies S.A.U.",
+        "capacity": 1
+    },
+    {
+        "id": 405670,
+        "enterprise": "Idneo Technologies S.A.U.",
+        "capacity": 1
+    },
+    {
+        "id": 405628,
+        "enterprise": "Indra Produccion Software S.L.",
+        "capacity": 2
+    },
+    {
+        "id": 405632,
+        "enterprise": "Indra Produccion Software S.L.",
+        "capacity": 7
+    },
+    {
+        "id": 403123,
+        "enterprise": "INETUM ESPAÑA S.A.",
+        "capacity": 1
+    },
+    {
+        "id": 403120,
+        "enterprise": "INETUM ESPAÑA S.A.",
+        "capacity": 1
+    },
+    {
+        "id": 404427,
+        "enterprise": "INGELABS S.L.",
+        "capacity": 2
+    },
+    {
+        "id": 403109,
+        "enterprise": "Kamstrup Spain S.L.",
+        "capacity": 1
+    },
+    {
+        "id": 405517,
+        "enterprise": "NTT Data Centers S.L.",
+        "capacity": 17
+    },
+    {
+        "id": 405519,
+        "enterprise": "NTT Data Centers S.L.",
+        "capacity": 3
+    },
+    {
+        "id": 405592,
+        "enterprise": "Plytix S.L.U.",
+        "capacity": 2
+    },
+    {
+        "id": 398719,
+        "enterprise": "Prodigia Consultores S.L.",
+        "capacity": 2
+    },
+    {
+        "id": 404271,
+        "enterprise": "Properly Software S.L",
+        "capacity": 2
+    },
+    {
+        "id": 407725,
+        "enterprise": "QUANTEXA ",
+        "capacity": 1
+    },
+    {
+        "id": 404332,
+        "enterprise": "QUERRY S.A.",
+        "capacity": 2
+    },
+    {
+        "id": 406396,
+        "enterprise": "RAVENPACK INTERNATIONAL SL",
+        "capacity": 2
+    },
+    {
+        "id": 403250,
+        "enterprise": "SINERGICA",
+        "capacity": 2
+    },
+    {
+        "id": 404602,
+        "enterprise": "SOGETI - CAPGEMINI España S.L.",
+        "capacity": 4
+    },
+    {
+        "id": 402779,
+        "enterprise": "TUPL SpainS.L.",
+        "capacity": 1
+    },
+    {
+        "id": 402772,
+        "enterprise": "TUPL SpainS.L.",
+        "capacity": 1
+    },
+    {
+        "id": 404929,
+        "enterprise": "VECTORPIPE S.L. ",
+        "capacity": 1
+    },
+    {
+        "id": 400724,
+        "enterprise": "VIEWNEXT SA",
+        "capacity": 5
+    },
+    {
+        "id": 400723,
+        "enterprise": "VIEWNEXT SA",
+        "capacity": 5
+    }
+]
