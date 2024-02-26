@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --verified: #29874b;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,9 +40,13 @@ th:last-child {
   width: 100%;
 }
 
-.verified {
-  background-color: #25D366;
+.bg-verified {
+  background-color:  var(--verified);
   color: white;
+}
+
+.text-verified{
+  color: var(--verified);
 }
 
 @layer utilities {

@@ -14,7 +14,7 @@ async function getServerSideProps() {
 
 export default async function CurrentData() {
   const { data } = await getServerSideProps();
-  
+
   data.sort((a, b) => a.rank - b.rank);
   for (let i = 0; i < data.length; i++) {
     data[i].rank = data[i].rank.toString();
@@ -46,6 +46,15 @@ export default async function CurrentData() {
           </a>
         </div>
         <h2 className="text-2xl font-semibold mt-5">Datos</h2>
+        <p>Estos son los datos que se han recopilado hasta el momento:</p>
+        <div className="text-center mb-2">
+          <p className="text-xl">
+            <strong className="text-2xl">
+              {data.length} / 132
+            </strong> puestos
+          </p>
+          <p>de los cuales <strong className="text-verified">{data.reduce((x, item) => x + (item.verified? 1 : 0), 0)}</strong> han sido <strong className="text-verified">verificados</strong></p>
+        </div>
         <div className="overflow-x-auto">
           <table className="table-auto border-collapse border border-slate-400 ">
             <thead>
@@ -56,17 +65,17 @@ export default async function CurrentData() {
             </thead>
             <tbody>
               {data.map((item, index) => (
-                <tr key={index} className={item.verified ? "verified" : ""}>
+                <tr key={index} className={item.verified ? "bg-verified" : ""}>
                   <td className="border border-slate-300">{item.rank}</td>
                   <td className="border border-slate-300">{item.preferences.join(", ")}</td>
                 </tr>
               ))}
             </tbody>
           </table>
-          </div>
-          <p>* En verde se encuentran aquellas entradas que han sido verificadas.</p>
         </div>
-        <div className="mb-32 mt-4 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
+        <p>* En <strong className="text-verified">verde</strong> se encuentran aquellas entradas que han sido verificadas.</p>
+      </div>
+      <div className="mb-32 mt-4 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
         <Link
           href="/preferences"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
